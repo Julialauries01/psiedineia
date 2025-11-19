@@ -88,24 +88,24 @@ const Header = () => {
 				},
 			] */
 		},
-		{
-			id: 'services',
-			name: 'Services',
-			linkName: '',
+		// {
+		// 	id: 'services',
+		// 	name: 'Serviços',
+		// 	linkName: '',
 			
-			subItems: [
-				{
-					id: 'services',
-					displayName: 'Serviços',
-					linkName: 'services'
-				},
-				{
-					id: 'serviceDetail',
-					displayName: 'Service Detail',
-					linkName: 'service-detail'
-				},
-			]
-		},
+		// 	subItems: [
+		// 		{
+		// 			id: 'services',
+		// 			displayName: 'Serviços',
+		// 			linkName: 'services'
+		// 		},
+		// 		{
+		// 			id: 'serviceDetail',
+		// 			displayName: 'Service Detail',
+		// 			linkName: 'service-detail'
+		// 		},
+		// 	]
+		// },
 		// {
 		// 	id: 'blog',
 		// 	name: 'Blog',
