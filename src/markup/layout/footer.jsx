@@ -30,8 +30,10 @@ class aboutSection extends Component{
 											<Link to="/"><img src={Logo} alt=""/></Link>
 										</div>
 										<div className="ft-contact">
-											<p>Lorem ipsum is dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et.</p>
-											<div className="contact-bx">
+<p>
+    Ofereço acolhimento, escuta qualificada e acompanhamento psicológico humanizado.
+    Meu compromisso é caminhar com você em direção ao equilíbrio emocional.
+</p>											<div className="contact-bx">
 <a href="https://wa.me/5516992091665" target="_blank" rel="noopener noreferrer">
     <div className="icon">
         <i className="fas fa-phone-alt"></i>
@@ -85,7 +87,7 @@ class aboutSection extends Component{
 											<ul>
 												{/* <li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/"><img src={facebook} alt=""/></a></li> */}
 												{/* <li><a target="_blank" rel="noreferrer" href="https://twitter.com/"><img src={twitter} alt=""/></a></li>*/}
-												<li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/psi.edineiasaraiva"><img src={instagram} alt=""/></a></li>
+												<li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/edineiasaraiva.psicologa"><img src={instagram} alt=""/></a></li>
 												{/* <li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/"><img src={linkedin} alt=""/></a></li>*/}
 											</ul>
 										</div>

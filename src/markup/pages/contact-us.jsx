@@ -82,7 +82,7 @@ class ContactUs extends Component{
 												<div className="icon-box">
 													<h6 className="title"><i className="ti-world"></i>Siga-me</h6>
 													<ul className="social-media">
-														<li><a rel="noreferrer" target="_blank" href="https://www.instagram.com/psi.edineiasaraiva"><i className="fab fa-instagram"></i></a></li>
+														<li><a rel="noreferrer" target="_blank" href="https://www.instagram.com/edineiasaraiva.psicologa"><i className="fab fa-instagram"></i></a></li>
 													</ul>
 												</div>
 											</div>
