@@ -106,24 +106,24 @@ const Header = () => {
 				},
 			]
 		},
-		{
-			id: 'blog',
-			name: 'Blog',
-			linkName: '#',
+		// {
+		// 	id: 'blog',
+		// 	name: 'Blog',
+		// 	linkName: '#',
 			
-			subItems: [
-				{
-					id: 'blogGrid',
-					displayName: 'Blogs',
-					linkName: 'blog-grid'
-				},
-				{
-					id: 'blogDetails',
-					displayName: 'Detalhes do Blog',
-					linkName: 'blog-details/:id'
-				},
-			]
-		},
+		// 	subItems: [
+		// 		{
+		// 			id: 'blogGrid',
+		// 			displayName: 'Blogs',
+		// 			linkName: 'blog-grid'
+		// 		},
+		// 		{
+		// 			id: 'blogDetails',
+		// 			displayName: 'Detalhes do Blog',
+		// 			linkName: 'blog-details/:id'
+		// 		},
+		// 	]
+		// },
 /*		{
 			id: 'contactUs',
 			name: 'Contact Us',
