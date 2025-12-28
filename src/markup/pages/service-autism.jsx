@@ -4,14 +4,13 @@ import { Accordion } from "react-bootstrap";
 
 // Import Images
 import bnrImg1 from "../../images/banner/img1.jpg";
-import waveBlue from "../../images/shap/wave-blue.png";
 import circleDots from "../../images/shap/circle-dots.png";
 import plusBlue from "../../images/shap/plus-blue.png";
-import servicesPic1 from "../../images/services/pic1.jpg";
+import servicesPic1 from "../../images/services/pic2.png";
 import pdf from "../../images/icon/pdf.png";
 import doc from "../../images/icon/doc.png";
 
-class ServiceDetailAutismo extends Component {
+class ServiceAutism extends Component {
   render() {
     return (
       <>
@@ -58,7 +57,6 @@ class ServiceDetailAutismo extends Component {
                 </div>
               </div>
 
-              <img className="pt-img1 animate-wave" src={waveBlue} alt="" />
               <img className="pt-img2 animate2" src={circleDots} alt="" />
               <img className="pt-img3 animate-rotate" src={plusBlue} alt="" />
             </div>
@@ -302,7 +300,7 @@ class ServiceDetailAutismo extends Component {
                           </Link>
                         </li>
                         <li className="active">
-                          <Link to="/service-detail-autismo">
+                          <Link to="/service-autism">
                             <span>Autismo (Apoio Familiar)</span>
                             <i className="fa fa-angle-right"></i>
                           </Link>
@@ -350,4 +348,4 @@ class ServiceDetailAutismo extends Component {
   }
 }
 
-export default ServiceDetailAutismo;
+export default ServiceAutism;

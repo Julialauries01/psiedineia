@@ -65,7 +65,7 @@ class ServicesSliderSection extends Component{
 											<h3 className="ttr-title">Autismo</h3>
 											<p className="limit-text">
 A psicologia oferece suporte essencial para pessoas com Transtorno do Espectro Autista, ajudando no desenvolvimento emocional, social e comunicativo. Através de intervenções personalizadas, é possível melhorar habilidades sociais, compreensão de emoções, autonomia e qualidade de vida. O acompanhamento também apoia as famílias, orientando sobre estratégias práticas para o dia a dia.</p>
-											<Link to="/service-detail-autismo" className="btn btn-primary light">Ver mais</Link>
+											<Link to="/service-autism" className="btn btn-primary light">Ver mais</Link>
 										</div>
 									</div>
 								</div>
