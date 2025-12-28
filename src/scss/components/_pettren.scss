@@ -1,14 +1,20 @@
 /* ==================
 	8.15 Pattern
 =================== */
-[class*="pt-img"]{
+[class*="pt-img"] {
 	position: absolute;
 	user-select: none;
 	z-index: -1;
-	@include respond('phone-land'){
+	max-width: 100%;
+	/* garante que não passe do container */
+	overflow: hidden;
+	/* corta qualquer sobra */
+
+	@include respond('phone-land') {
 		display: none;
 	}
 }
+
 .animate1{
 	-webkit-animation: up-down 1.5s infinite alternate;
 	animation: up-down 1.5s infinite alternate;
@@ -20,9 +26,12 @@
 	-webkit-animation: up-down 2s infinite alternate;
 	animation: up-down 2s infinite alternate;
 }
-.animate-rotate{
+.animate-rotate {
 	-webkit-animation: rotation 20s infinite linear;
 	animation: rotation 20s infinite linear;
+	overflow: hidden;
+	max-width: 100%;
+
 }
 .animate-wave{
 	-webkit-animation: left-right 1.5s infinite alternate;

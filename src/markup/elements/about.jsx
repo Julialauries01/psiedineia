@@ -292,10 +292,9 @@ class aboutSection extends Component {
               </div>
             </div>
           </div>
-          <img className="pt-img1 animate-wave" src={ptImg1} alt="" />
-          <img className="pt-img2 animate2" src={ptImg2} alt="" />
-          <img className="pt-img3 animate-rotate" src={ptImg5} alt="" />
-          <img className="pt-img4 animate-wave" src={ptImg4} alt="" />
+          <div className="rotate-wrapper">
+            <img className="pt-img3 animate-rotate" src={ptImg5} alt="" />
+          </div>{" "}
           <img className="pt-img5 animate2" src={ptImg5} alt="" />
         </section>
       </>
