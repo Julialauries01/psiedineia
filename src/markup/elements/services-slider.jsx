@@ -50,7 +50,7 @@ class ServicesSliderSection extends Component {
               <Slider {...settings} className="service-slide slick-arrow-none">
                 <div className="slider-item">
                   <div className="feature-container feature-bx2 feature1">
-                    <div className="feature-box-xl autism-icon mb-20 ">
+                    <div className="feature-box-xl icon mb-20 ">
                       <span className="icon-cell">
                         <i className="fas fa-puzzle-piece"></i>
                       </span>
