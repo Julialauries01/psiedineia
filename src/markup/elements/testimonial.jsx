@@ -11,7 +11,7 @@ import testPic3 from "../../images/testimonials/pic3.jpg"
 import testPic5 from "../../images/testimonials/pic5.jpg"
 import testPic6 from "../../images/testimonials/pic6.jpg"
 import plusOrange from "../../images/shap/plus-orange.png"
-import squareBlue from "../../images/shap/square-blue.png"
+// import squareBlue from "../../images/shap/square-blue.png"
 import circleDots from "../../images/shap/circle-dots.png"
 import circleOrange2 from "../../images/shap/circle-orange-2.png"
 
@@ -129,7 +129,7 @@ Muito grata por todo suporte e por ter conhecido uma pessoa e profissional tão 
 						</div>	 
 					</div>
 					<img className="pt-img1 animate1" src={plusOrange} alt=""/>
-					<img className="pt-img2 animate2" src={squareBlue} alt=""/>
+					{/* <img className="pt-img2 animate2" src={squareBlue} alt=""/> */}
 					<img className="pt-img3 animate3" src={circleDots} alt=""/>
 					<img className="pt-img4 animate4" src={circleOrange2} alt=""/>
 				</section>

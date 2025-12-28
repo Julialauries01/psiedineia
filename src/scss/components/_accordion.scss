@@ -42,3 +42,19 @@
 		border-radius: 0 0 $border-radius-base $border-radius-base;
 	}
 }
+
+.aba-item {
+  display: block;
+  padding-left: 30px; // "tab pra frente"
+  margin-top: 8px;
+  line-height: 22px;
+}
+
+.aba-dot {
+  color: $primary; // azul do tema
+  font-size: 26px; // bolinha maior
+  font-weight: bold;
+  margin-right: 8px;
+  position: relative;
+  top: 2px; // alinha verticalmente com o texto
+}
