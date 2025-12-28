@@ -26,7 +26,7 @@ function Index(){
 			
 			<TestimonialSection />
 			
-			<LatestNewsSection />
+			{/* <LatestNewsSection /> */}
 			
 		</>
 		

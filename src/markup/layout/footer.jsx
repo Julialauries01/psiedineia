@@ -55,7 +55,7 @@ class aboutSection extends Component{
 											<li><Link to="/services"><span>Serviços</span></Link></li>
 											{/*<li><Link to="/booking"><span>Booking</span></Link></li> */}
 										{/*<	<li><Link to="/faq"><span>Faq's</span></Link></li>*/}
-											<li><Link to="/blog-grid"><span>Blogs</span></Link></li>
+											{/* <li><Link to="/blog-grid"><span>Blogs</span></Link></li> */}
 										{/*<	<li><Link to="/team"><span>Out Team</span></Link></li>*/}
 										</ul>
 									</div>

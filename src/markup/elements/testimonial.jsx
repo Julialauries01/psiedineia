@@ -7,7 +7,7 @@ import testShape from "../../images/testimonials/shape.png"
 /*import testPic1 from "../../images/testimonials/pic1.jpg" */
 import testPic2 from "../../images/testimonials/pic2.jpg"
 import testPic3 from "../../images/testimonials/pic3.jpg"
-import testPic4 from "../../images/testimonials/pic4.jpg"
+// import testPic4 from "../../images/testimonials/pic4.jpg"
 import testPic5 from "../../images/testimonials/pic5.jpg"
 import testPic6 from "../../images/testimonials/pic6.jpg"
 import plusOrange from "../../images/shap/plus-orange.png"
@@ -42,8 +42,8 @@ class testimonialSection extends Component{
 									<ul>
 										<li data-member="1"><Link to="#"><img src={testPic3} alt=""/></Link></li>
 										<li data-member="2"><Link to="#"><img src={testPic2} alt=""/></Link></li>
-										<li data-member="3"><Link to="#"><img src={testPic4} alt=""/></Link></li>
-										<li data-member="4"><Link to="#"><img src={testPic4} alt=""/></Link></li>
+										{/* <li data-member="3"><Link to="#"><img src={testPic4} alt=""/></Link></li>
+										<li data-member="4"><Link to="#"><img src={testPic4} alt=""/></Link></li> */}
 										<li data-member="5"><Link to="#"><img src={testPic5} alt=""/></Link></li>
 										<li data-member="6"><Link to="#"><img src={testPic6} alt=""/></Link></li>
 									</ul>
@@ -71,11 +71,11 @@ Muito grata por todo suporte e por ter conhecido uma pessoa e profissional tão 
 									<div className="slider-item">
 										<div className="testimonial-bx">
 											<div className="testimonial-content">
-												<p>lorem impsum</p>
+												<p>Profissional maravilhosa, completamente ética e super atenciosa, minha filha ama e Edineia e eu também , super recomendo</p>
 											</div>
 											<div className="client-info">
-												<h5 className="name">Soraia</h5>
-												<p>Paciente</p>
+												<h5 className="name">Marina Escobar</h5>
+												<p>Mãe de paciente</p>
 											</div>
 											<div className="quote-icon">
 												<i className="fas fa-quote-left"></i>
@@ -83,6 +83,20 @@ Muito grata por todo suporte e por ter conhecido uma pessoa e profissional tão 
 										</div>
 									</div>
 									<div className="slider-item">
+										<div className="testimonial-bx">
+											<div className="testimonial-content">
+												<p>Atende meu filho de 6 anos , muito competente e atenciosa , amo o trabalho que ela faz.</p>
+											</div>
+											<div className="client-info">
+												<h5 className="name">Mercela Pandochi</h5>
+												<p>Mãe de paciente</p>
+											</div>
+											<div className="quote-icon">
+												<i className="fas fa-quote-left"></i>
+											</div>
+										</div>
+									</div>
+									{/* <div className="slider-item">
 										<div className="testimonial-bx">
 											<div className="testimonial-content">
 												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecena ssuspendisse ultrices gravida.</p>
@@ -95,8 +109,8 @@ Muito grata por todo suporte e por ter conhecido uma pessoa e profissional tão 
 												<i className="fas fa-quote-left"></i>
 											</div>
 										</div>
-									</div>
-									<div className="slider-item">
+									</div> */}
+									{/* <div className="slider-item">
 										<div className="testimonial-bx">
 											<div className="testimonial-content">
 												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecena ssuspendisse ultrices gravida.</p>
@@ -109,21 +123,7 @@ Muito grata por todo suporte e por ter conhecido uma pessoa e profissional tão 
 												<i className="fas fa-quote-left"></i>
 											</div>
 										</div>
-									</div>
-									<div className="slider-item">
-										<div className="testimonial-bx">
-											<div className="testimonial-content">
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecena ssuspendisse ultrices gravida.</p>
-											</div>
-											<div className="client-info">
-												<h5 className="name">John Deo</h5>
-												<p>Paciente</p>
-											</div>
-											<div className="quote-icon">
-												<i className="fas fa-quote-left"></i>
-											</div>
-										</div>
-									</div>
+									</div> */}
 								</Slider>
 							</div>	 
 						</div>	 
