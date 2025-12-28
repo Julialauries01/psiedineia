@@ -6,11 +6,11 @@ import { Accordion } from "react-bootstrap";
 import bnrImg1 from "../../images/banner/img1.jpg";
 import circleDots from "../../images/shap/circle-dots.png";
 import plusBlue from "../../images/shap/plus-blue.png";
-import servicesPic2 from "../../images/services/pic2.png";
+import servicesPic3 from "../../images/services/pic3.png";
 import pdf from "../../images/icon/pdf.png";
 import doc from "../../images/icon/doc.png";
 
-class ServiceAutism extends Component {
+class ServiceTdah extends Component {
   render() {
     return (
       <>
@@ -23,7 +23,7 @@ class ServiceAutism extends Component {
             >
               <div className="container">
                 <div className="page-banner-entry text-center">
-                  <h1>Autismo (TEA)</h1>
+                  <h1>TDAH</h1>
                   <nav aria-label="breadcrumb" className="breadcrumb-row">
                     <ul className="breadcrumb">
                       <li className="breadcrumb-item">
@@ -50,7 +50,7 @@ class ServiceAutism extends Component {
                         className="breadcrumb-item active"
                         aria-current="page"
                       >
-                        Autismo (TEA)
+                        TDAH
                       </li>
                     </ul>
                   </nav>
@@ -69,44 +69,39 @@ class ServiceAutism extends Component {
                 {/* COLUNA PRINCIPAL */}
                 <div className="col-lg-8 mb-30">
                   <div className="ttr-media mb-30">
-                    <img src={servicesPic2} className="rounded" alt="" />
+                    <img src={servicesPic3} className="rounded" alt="" />
                   </div>
 
                   {/* SOBRE O SERVIÇO */}
                   <div className="clearfix">
                     <div className="head-text mb-30">
                       <h2 className="title mb-15">
-                        Compreendendo o Autismo (TEA) e o Potencial da Terapia
+                        Compreendendo o TDAH e o Potencial da Terapia
                       </h2>
+
                       <p className="mb-0">
-                        O Transtorno do Espectro Autista (TEA) é uma condição do
-                        neurodesenvolvimento caracterizada por diferenças na
-                        comunicação, na interação social e no processamento
-                        sensorial e cognitivo. Essas características se
-                        manifestam de forma única em cada pessoa — por isso o
-                        termo "espectro" –, podendo incluir interesses intensos,
-                        padrões de comportamento repetitivos e formas variadas
-                        de perceber o mundo.
+                        O Transtorno do Déficit de Atenção e Hiperatividade
+                        (TDAH) é uma condição do neurodesenvolvimento
+                        caracterizada por dificuldades persistentes de atenção,
+                        organização, impulsividade e, em alguns casos,
+                        hiperatividade. Esses aspectos podem impactar a vida
+                        acadêmica, profissional, social e emocional.
                         <br />
                         <br />
-                        Mais do que um conjunto de desafios, o autismo envolve
-                        uma maneira singular de ser.
-                        <br></br>
-                        <br></br>A intervenção adequada não busca "curar", mas
-                        promover desenvolvimento, autonomia, qualidade de vida e
-                        bem-estar, respeitando a individualidade de cada um.
+                        Com acompanhamento psicológico adequado, é possível
+                        desenvolver estratégias eficazes para melhorar o foco, a
+                        autorregulação emocional, a autonomia e a qualidade de
+                        vida.
                       </p>
                     </div>
 
                     <div className="row align-items-center">
                       <div className="col-md-6 mb-30">
                         <ul className="list-check-squer mb-0">
-                          <li>
-                            Desenvolvimento da comunicação e habilidades sociais
-                          </li>
-                          <li>Redução de comportamentos desafiadores</li>
-                          <li>Promoção da autonomia no dia a dia</li>
-                          <li>Fortalecimento das habilidades emocionais</li>
+                          <li>Melhora da atenção e da concentração</li>
+                          <li>Organização e planejamento da rotina</li>
+                          <li>Redução da impulsividade</li>
+                          <li>Fortalecimento da autorregulação emocional</li>
                           <li>Apoio e orientação para a família</li>
                         </ul>
                       </div>
@@ -124,7 +119,7 @@ class ServiceAutism extends Component {
                         </div>
 
                         <div className="skillbar-box mb-30">
-                          <h6 className="title">Base Científica (ABA)</h6>
+                          <h6 className="title">Base Científica</h6>
                           <div className="skillbar appear">
                             <p
                               className="skillbar-bar"
@@ -135,9 +130,7 @@ class ServiceAutism extends Component {
                         </div>
 
                         <div className="skillbar-box mb-0">
-                          <h6 className="title">
-                            Apoio à Família e Cuidadores
-                          </h6>
+                          <h6 className="title">Apoio Familiar</h6>
                           <div className="skillbar appear">
                             <p
                               className="skillbar-bar"
@@ -149,15 +142,13 @@ class ServiceAutism extends Component {
                       </div>
                     </div>
 
-                    {/* TEXTO ABA */}
+                    {/* TEXTO */}
                     <p className="mt-30">
-                      A Terapia Comportamental, baseada nos princípios da
-                      Análise do Comportamento Aplicada (ABA), é uma das
-                      abordagens com maior respaldo científico para o
-                      acompanhamento de pessoas no espectro autista. O trabalho
-                      é prático, funcional e totalmente adaptado às
-                      necessidades, interesses e potencialidades de cada
-                      indivíduo.
+                      A Terapia Comportamental é uma abordagem baseada em
+                      evidências científicas que auxilia pessoas com TDAH no
+                      desenvolvimento de habilidades práticas para lidar com
+                      desafios do cotidiano, promovendo autonomia, organização e
+                      bem-estar.
                     </p>
                   </div>
 
@@ -167,7 +158,7 @@ class ServiceAutism extends Component {
                       <h4 className="title mb-10">Perguntas Frequentes</h4>
                       <p className="mb-0">
                         Tire algumas das principais dúvidas sobre o
-                        acompanhamento psicológico no TEA.
+                        acompanhamento psicológico no TDAH.
                       </p>
                     </div>
 
@@ -177,61 +168,46 @@ class ServiceAutism extends Component {
                     >
                       <Accordion.Item eventKey="0">
                         <Accordion.Header>
-                          Como a terapia comportamental pode ajudar no TEA?
+                          Como a terapia pode ajudar no TDAH?
                         </Accordion.Header>
                         <Accordion.Body>
                           <p className="mb-0">
-                            A Terapia Comportamental, com base nos princípios da
-                            Análise do Comportamento Aplicada (ABA) é uma das
-                            abordagens com mais evidências científicas para o
-                            apoio a pessoas no espectro autista. Seu foco é
-                            prático e funcional:
+                            A terapia comportamental auxilia no desenvolvimento
+                            de estratégias práticas para lidar com os sintomas
+                            do TDAH, promovendo maior funcionalidade no dia a
+                            dia:
                             <br />
                             <br />
                             <span className="aba-item">
                               <span className="aba-dot">•</span>
-                              Redução de Comportamentos Desafiadores
+                              Melhora da atenção, organização e controle de
+                              impulsos
                             </span>
                             <br />
                             <span className="aba-item">
                               <span className="aba-dot">•</span>
-                              Apoio à Família: Orienta e treina pais e
-                              cuidadores, tornando-os agentes ativos no processo
-                              de desenvolvimento, criando um ambiente
-                              previsível, estruturado e de suporte.
+                              Apoio à Família: orientação para criação de
+                              rotinas estruturadas, previsíveis e estratégias de
+                              manejo comportamental.
                             </span>
                           </p>
                         </Accordion.Body>
                       </Accordion.Item>
+
                       <Accordion.Item eventKey="1">
                         <Accordion.Header>
                           O atendimento é individualizado?
                         </Accordion.Header>
                         <Accordion.Body>
                           <p className="mb-0">
-                            O trabalho é individualizado. Partimos de uma
-                            avaliação detalhada para entender os pontos fortes,
-                            os interesses e as necessidades únicas de cada
-                            pessoa, estabelecendo metas significativas para sua
-                            vida.
-                          </p>
-                        </Accordion.Body>
-                      </Accordion.Item>
-                      <Accordion.Item eventKey="2">
-                        <Accordion.Header>
-                          A família participa do processo terapêutico?
-                        </Accordion.Header>
-                        <Accordion.Body>
-                          <p className="mb-0">
-                            Sim. A família é parte fundamental do processo. Pais
-                            e cuidadores recebem orientações para criar um
-                            ambiente estruturado, previsível e de apoio,
-                            tornando-se agentes ativos no desenvolvimento.
+                            Sim. O acompanhamento é personalizado, respeitando
+                            as necessidades, desafios e potencialidades de cada
+                            pessoa.
                           </p>
                         </Accordion.Body>
                       </Accordion.Item>
 
-                      <Accordion.Item eventKey="4">
+                      <Accordion.Item eventKey="2">
                         <Accordion.Header>
                           O atendimento pode ser online?
                         </Accordion.Header>
@@ -246,35 +222,25 @@ class ServiceAutism extends Component {
                       </Accordion.Item>
                     </Accordion>
 
-                    <p className="mt-30">
-                      Meu objetivo, como psicóloga, é atuar como uma
-                      facilitadora nessa jornada, criando, junto com a família,
-                      um caminho de evolução contínua, respeito e valorização
-                      das potencialidades de cada indivíduo.
-                    </p>
-
-                    {/* CTA FINAL */}
+                    {/* CTA */}
                     <p className="mt-30">
                       Entre em contato para agendar uma avaliação inicial e
-                      conversarmos sobre um plano de intervenção
-                      individualizado. Estou à disposição para esclarecer
-                      dúvidas e orientar sua família nesse processo.
+                      conversarmos sobre um plano terapêutico individualizado.
                     </p>
-                  </div>
-                   <li className="num-bx">
-                  <a
-                    href="https://wa.me/5516992091665?text=Olá!%20Gostaria%20de%20conversar%20sobre%20atendimento%20psicológico."
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fas btn btn-primary shadow">
-                      Vamos conversar?
-                    </i>
-                  </a>
-                </li>
-                </div>
 
-                
+                    <li className="num-bx">
+                      <a
+                        href="https://wa.me/5516992091665?text=Olá!%20Gostaria%20de%20conversar%20sobre%20atendimento%20psicológico."
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fas btn btn-primary shadow">
+                          Vamos conversar?
+                        </i>
+                      </a>
+                    </li>
+                  </div>
+                </div>
 
                 {/* SIDEBAR */}
                 <div className="col-lg-4">
@@ -293,15 +259,15 @@ class ServiceAutism extends Component {
                             <i className="fa fa-angle-right"></i>
                           </Link>
                         </li>
-                        <li>
-                          <Link to="/service-detail">
-                            <span>TDAH em adultos</span>
+                        <li className="active">
+                          <Link to="/service-tdah">
+                            <span>TDAH</span>
                             <i className="fa fa-angle-right"></i>
                           </Link>
                         </li>
-                        <li className="active">
+                        <li>
                           <Link to="/service-autism">
-                            <span>Autismo (Apoio Familiar)</span>
+                            <span>Autismo</span>
                             <i className="fa fa-angle-right"></i>
                           </Link>
                         </li>
@@ -323,13 +289,11 @@ class ServiceAutism extends Component {
                     <div className="widget">
                       <div className="brochure-bx">
                         <h5 className="title-head">Download</h5>
-
                         <Link to="#" className="download-link">
                           <img src={pdf} alt="" />
                           <h5 className="title">Guia de Saúde Mental</h5>
                           <span>Download</span>
                         </Link>
-
                         <Link to="#" className="download-link">
                           <img src={doc} alt="" />
                           <h5 className="title">Informações da Profissional</h5>
@@ -348,4 +312,4 @@ class ServiceAutism extends Component {
   }
 }
 
-export default ServiceAutism;
+export default ServiceTdah;

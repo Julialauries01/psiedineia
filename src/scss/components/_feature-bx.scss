@@ -93,6 +93,25 @@
 		height: 30px;
 	}
 }
+
+/* ==================
+   AUTISMO – QUEBRA-CABEÇA
+=================== */
+.autism-icon {
+	// background: #ecfcff;
+	border-radius: 50%;
+	border: 2px solid #b2f0fb;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3s ease;
+}
+
+.autism-icon i {
+	color: #5f6caf;
+	font-size: 60px;
+	transition: transform 0.3s ease;
+}
 .feature-box-xs{
 	display: inline-block;
     text-align: center;
@@ -116,6 +135,14 @@
 		height: 20px;
 	}
 }
+
+
+.icon i {
+	font-size: 60px; 
+	color: #5f6caf;
+}
+
+
 
 // ICON SIZE
 .icon-xl{

@@ -23,6 +23,7 @@ import BlogGrid from './pages/blog-grid';
 import BlogDetails from './pages/blog-details';
 import Error from './pages/error-404';
 import ServiceAutism from './pages/service-autism';
+import ServiceTdah from './pages/service-tdah';
 
 
 class Markup extends Component {
@@ -37,6 +38,7 @@ class Markup extends Component {
 							<Route path='/services' element={<Services />} />
 							<Route path='/service-detail' element={<ServiceDetail />} />
 							<Route path='/service-autism' element={<ServiceAutism />} />
+							<Route path='/service-tdah' element={<ServiceTdah />} />
 							<Route path='/faq' element={<Faq />} />
 							<Route path='/contact-us' element={<ContactUs />} />
 							<Route path='/blog-grid' element={<BlogGrid />} />
