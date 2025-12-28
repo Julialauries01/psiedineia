@@ -185,11 +185,17 @@ class ServiceDetail extends Component {
                                         <div className="widget">
                                             <ul className="service-menu">
                                                 <li className="active"><Link to="/service-detail"><span>Terapia Individual</span><i className="fa fa-angle-right"></i></Link></li>
-                                                <li><Link to="/service-detail"><span>Ansiedade</span><i className="fa fa-angle-right"></i></Link></li>
+                                                {/* <li><Link to="/service-detail"><span>Ansiedade</span><i className="fa fa-angle-right"></i></Link></li>
                                                 <li><Link to="/service-detail"><span>TDAH em adultos</span><i className="fa fa-angle-right"></i></Link></li>
                                                 <li><Link to="/service-detail"><span>Autismo (Apoio Familiar)</span><i className="fa fa-angle-right"></i></Link></li>
                                                 <li><Link to="/service-detail"><span>Relacionamentos</span><i className="fa fa-angle-right"></i></Link></li>
                                                 <li><Link to="/service-detail"><span>Depressão</span><i className="fa fa-angle-right"></i></Link></li>
+                                                 */}
+                                                  <li><Link to="/"><span>Ansiedade</span><i className="fa fa-angle-right"></i></Link></li>
+                                                <li><Link to="/"><span>TDAH em adultos</span><i className="fa fa-angle-right"></i></Link></li>
+                                                <li><Link to="/"><span>Autismo (Apoio Familiar)</span><i className="fa fa-angle-right"></i></Link></li>
+                                                <li><Link to="/"><span>Relacionamentos</span><i className="fa fa-angle-right"></i></Link></li>
+                                                <li><Link to="/"><span>Depressão</span><i className="fa fa-angle-right"></i></Link></li>
                                             </ul>
                                         </div>
 

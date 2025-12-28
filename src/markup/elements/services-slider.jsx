@@ -86,7 +86,7 @@ A psicologia oferece suporte essencial para pessoas com Transtorno do Espectro A
 											<h3 className="ttr-title">TDAH</h3>
 											<p className="limit-text">
 												A psicologia auxilia crianças, adolescentes e adultos com TDAH a lidar melhor com dificuldades de atenção, impulsividade e organização. Por meio de técnicas terapêuticas, é possível desenvolver estratégias para controlar a ansiedade, melhorar o foco, fortalecer a autoestima e criar rotinas mais eficazes. O tratamento promove bem-estar e maior equilíbrio na vida pessoal e profissional.</p>
-											<Link to="/service-detail" className="btn btn-primary light">Ver mais</Link>
+											<Link to="/" className="btn btn-primary light">Ver mais</Link>
 										</div>
 									</div>
 								</div>
@@ -108,7 +108,7 @@ A psicologia oferece suporte essencial para pessoas com Transtorno do Espectro A
 																						<p className="limit-text">
 
 												O processo de luto pode ser acompanhado pela psicologia para ajudar a pessoa a lidar com a dor emocional, reorganizar a rotina e reconstruir o sentido da vida após uma perda. A terapia oferece acolhimento, orientação e suporte para atravessar essa fase com mais equilíbrio e compreensão.</p>
-											<Link to="/service-detail" className="btn btn-primary light">Ver mais</Link>
+											<Link to="/" className="btn btn-primary light">Ver mais</Link>
 										</div>
 									</div>
 								</div>
@@ -126,7 +126,7 @@ A psicologia oferece suporte essencial para pessoas com Transtorno do Espectro A
 											<h3 className="ttr-title">Ansiedade</h3>
 																						<p className="limit-text">
 A terapia psicológica contribui para a compreensão da origem da ansiedade, ajudando o paciente a identificar gatilhos e padrões de pensamento que provocam sofrimento. Com técnicas baseadas em evidências, como TCC, é possível reduzir sintomas, aprender ferramentas de regulação emocional e recuperar o controle sobre a vida.</p>
-											<Link to="/service-detail" className="btn btn-primary light">Ver mais</Link>
+											<Link to="/" className="btn btn-primary light">Ver mais</Link>
 										</div>
 									</div>
 								</div>
@@ -150,7 +150,7 @@ A Transtorno de Ansiedade Generalizada (TAG) pode causar preocupação excessiva
 A psicoterapia oferece estratégias para identificar gatilhos, reorganizar pensamentos e desenvolver habilidades emocionais que 
 ajudam a reduzir a ansiedade e recuperar a sensação de equilíbrio e bem-estar no dia a dia.
 </p>
-											<Link to="/service-detail" className="btn btn-primary light">Ver mais</Link>
+											<Link to="/" className="btn btn-primary light">Ver mais</Link>
 										</div>
 									</div>
 								</div>
