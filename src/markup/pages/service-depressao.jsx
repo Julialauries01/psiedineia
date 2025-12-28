@@ -2,15 +2,14 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Accordion } from "react-bootstrap";
 
-// Import Images
 import bnrImg1 from "../../images/banner/img1.jpg";
 import circleDots from "../../images/shap/circle-dots.png";
 import plusBlue from "../../images/shap/plus-blue.png";
-import servicesPic3 from "../../images/services/pic3.png";
+import servicesPic5 from "../../images/services/pic5.png";
 import pdf from "../../images/icon/pdf.png";
 import doc from "../../images/icon/doc.png";
 
-class ServiceTdah extends Component {
+class ServiceDepressao extends Component {
   render() {
     return (
       <>
@@ -23,7 +22,7 @@ class ServiceTdah extends Component {
             >
               <div className="container">
                 <div className="page-banner-entry text-center">
-                  <h1>TDAH</h1>
+                  <h1>Depressão</h1>
                   <nav aria-label="breadcrumb" className="breadcrumb-row">
                     <ul className="breadcrumb">
                       <li className="breadcrumb-item">
@@ -50,7 +49,7 @@ class ServiceTdah extends Component {
                         className="breadcrumb-item active"
                         aria-current="page"
                       >
-                        TDAH
+                        Depressão
                       </li>
                     </ul>
                   </nav>
@@ -69,46 +68,45 @@ class ServiceTdah extends Component {
                 {/* COLUNA PRINCIPAL */}
                 <div className="col-lg-8 mb-30">
                   <div className="ttr-media mb-30">
-                    <img src={servicesPic3} className="rounded" alt="" />
+                    <img src={servicesPic5} className="rounded" alt="" />
                   </div>
 
                   {/* SOBRE O SERVIÇO */}
                   <div className="clearfix">
                     <div className="head-text mb-30">
                       <h2 className="title mb-15">
-                        Compreendendo o TDAH e o Potencial da Terapia
+                        Tratamento Psicológico para Depressão
                       </h2>
 
                       <p className="mb-0">
-                        O Transtorno do Déficit de Atenção e Hiperatividade
-                        (TDAH) é uma condição do neurodesenvolvimento
-                        caracterizada por dificuldades persistentes de atenção,
-                        organização, impulsividade e, em alguns casos,
-                        hiperatividade. Esses aspectos podem impactar a vida
-                        acadêmica, profissional, social e emocional.
+                        A depressão é uma condição de saúde mental que pode
+                        afetar o humor, os pensamentos, a energia e a forma como
+                        a pessoa se relaciona consigo mesma e com o mundo.
                         <br />
-                        <br />
-                        Com acompanhamento psicológico adequado, é possível
-                        desenvolver estratégias eficazes para melhorar o foco, a
-                        autorregulação emocional, a autonomia e a qualidade de
-                        vida.
+                        <br />O acompanhamento psicológico oferece um espaço
+                        seguro e acolhedor para compreender emoções,
+                        ressignificar experiências e fortalecer recursos
+                        internos, promovendo mais equilíbrio emocional e
+                        qualidade de vida.
                       </p>
                     </div>
 
                     <div className="row align-items-center">
                       <div className="col-md-6 mb-30">
                         <ul className="list-check-squer mb-0">
-                          <li>Melhora da atenção e da concentração</li>
-                          <li>Organização e planejamento da rotina</li>
-                          <li>Redução da impulsividade</li>
-                          <li>Fortalecimento da autorregulação emocional</li>
-                          <li>Apoio e orientação para a família</li>
+                          <li>Redução do sofrimento emocional</li>
+                          <li>Compreensão dos pensamentos depressivos</li>
+                          <li>Fortalecimento da autoestima</li>
+                          <li>
+                            Reconstrução da motivação e do sentido de vida
+                          </li>
+                          <li>Promoção do bem-estar emocional</li>
                         </ul>
                       </div>
 
                       <div className="col-md-6 mb-30">
                         <div className="skillbar-box mb-30">
-                          <h6 className="title">Atendimento Individualizado</h6>
+                          <h6 className="title">Escuta Qualificada</h6>
                           <div className="skillbar appear">
                             <p
                               className="skillbar-bar"
@@ -130,7 +128,7 @@ class ServiceTdah extends Component {
                         </div>
 
                         <div className="skillbar-box mb-0">
-                          <h6 className="title">Apoio Familiar</h6>
+                          <h6 className="title">Cuidado Emocional Contínuo</h6>
                           <div className="skillbar appear">
                             <p
                               className="skillbar-bar"
@@ -144,11 +142,10 @@ class ServiceTdah extends Component {
 
                     {/* TEXTO */}
                     <p className="mt-30">
-                      A Terapia Comportamental é uma abordagem baseada em
-                      evidências científicas que auxilia pessoas com TDAH no
-                      desenvolvimento de habilidades práticas para lidar com
-                      desafios do cotidiano, promovendo autonomia, organização e
-                      bem-estar.
+                      A psicoterapia não tem como objetivo forçar mudanças
+                      rápidas, mas ajudar a pessoa a construir, passo a passo,
+                      novas formas de lidar com suas emoções, pensamentos e
+                      desafios, respeitando seu tempo e sua história.
                     </p>
                   </div>
 
@@ -157,8 +154,8 @@ class ServiceTdah extends Component {
                     <div className="head-text mb-30">
                       <h4 className="title mb-10">Perguntas Frequentes</h4>
                       <p className="mb-0">
-                        Tire algumas das principais dúvidas sobre o
-                        acompanhamento psicológico no TDAH.
+                        Dúvidas comuns sobre o tratamento psicológico da
+                        depressão.
                       </p>
                     </div>
 
@@ -168,41 +165,28 @@ class ServiceTdah extends Component {
                     >
                       <Accordion.Item eventKey="0">
                         <Accordion.Header>
-                          Como a terapia pode ajudar no TDAH?
+                          Quando a depressão precisa de acompanhamento?
                         </Accordion.Header>
                         <Accordion.Body>
                           <p className="mb-0">
-                            A terapia comportamental auxilia no desenvolvimento
-                            de estratégias práticas para lidar com os sintomas
-                            do TDAH, promovendo maior funcionalidade no dia a
-                            dia:
-                            <br />
-                            <br />
-                            <span className="aba-item">
-                              <span className="aba-dot">•</span>
-                              Melhora da atenção, organização e controle de
-                              impulsos
-                            </span>
-                            <br />
-                            <span className="aba-item">
-                              <span className="aba-dot">•</span>
-                              Apoio à Família: orientação para criação de
-                              rotinas estruturadas, previsíveis e estratégias de
-                              manejo comportamental.
-                            </span>
+                            Quando sentimentos de tristeza, desânimo ou falta de
+                            interesse persistem e começam a afetar a rotina, os
+                            relacionamentos ou o bem-estar, buscar
+                            acompanhamento psicológico é um passo importante.
                           </p>
                         </Accordion.Body>
                       </Accordion.Item>
 
                       <Accordion.Item eventKey="1">
                         <Accordion.Header>
-                          O atendimento é individualizado?
+                          A depressão tem tratamento?
                         </Accordion.Header>
                         <Accordion.Body>
                           <p className="mb-0">
-                            Sim. O acompanhamento é personalizado, respeitando
-                            as necessidades, desafios e potencialidades de cada
-                            pessoa.
+                            Sim. Com acompanhamento psicológico adequado, é
+                            possível reduzir o sofrimento emocional, desenvolver
+                            novos recursos internos e promover melhora da
+                            qualidade de vida.
                           </p>
                         </Accordion.Body>
                       </Accordion.Item>
@@ -213,10 +197,9 @@ class ServiceTdah extends Component {
                         </Accordion.Header>
                         <Accordion.Body>
                           <p className="mb-0">
-                            Dependendo do caso, sim. O formato é avaliado com
-                            cuidado para garantir que o acompanhamento seja
-                            ético, eficaz e adequado às necessidades da pessoa e
-                            da família.
+                            Sim. O atendimento online pode ser eficaz e seguro,
+                            desde que avaliado de forma ética e adequado às
+                            necessidades de cada pessoa.
                           </p>
                         </Accordion.Body>
                       </Accordion.Item>
@@ -224,13 +207,15 @@ class ServiceTdah extends Component {
 
                     {/* CTA */}
                     <p className="mt-30">
-                      Entre em contato para agendar uma avaliação inicial e
-                      conversarmos sobre um plano terapêutico individualizado.
+                      Se você sente que tem sido difícil lidar com suas emoções,
+                      saiba que buscar ajuda é um gesto de cuidado consigo
+                      mesma. A psicoterapia pode ser um caminho de apoio e
+                      fortalecimento.
                     </p>
 
                     <li className="num-bx">
                       <a
-                        href="https://wa.me/5516992091665?text=Olá!%20Gostaria%20de%20conversar%20sobre%20atendimento%20psicológico."
+                        href="https://wa.me/5516992091665?text=Olá!%20Gostaria%20de%20conversar%20sobre%20atendimento%20psicológico%20para%20depressão."
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -292,7 +277,7 @@ class ServiceTdah extends Component {
                         <h5 className="title-head">Download</h5>
                         <Link to="#" className="download-link">
                           <img src={pdf} alt="" />
-                          <h5 className="title">Guia de Saúde Mental</h5>
+                          <h5 className="title">Guia sobre Depressão</h5>
                           <span>Download</span>
                         </Link>
                         <Link to="#" className="download-link">
@@ -313,4 +298,4 @@ class ServiceTdah extends Component {
   }
 }
 
-export default ServiceTdah;
+export default ServiceDepressao;

@@ -163,13 +163,14 @@ class ServicesSliderSection extends Component {
     </div>
 
     <div className="icon-content">
-      <h3 className="ttr-title">TAG</h3>
+      <h3 className="ttr-title">Depressão</h3>
       <p className="limit-text">
-        O Transtorno de Ansiedade Generalizada é caracterizado por preocupações
-        excessivas e persistentes. A psicoterapia auxilia no manejo da ansiedade,
-        na redução dos sintomas e na melhoria da qualidade de vida.
+    A depressão é uma condição de saúde mental que pode afetar o humor,
+    os pensamentos, a energia e o interesse pelas atividades do dia a dia.
+    A psicoterapia oferece um espaço seguro para compreender emoções,
+    fortalecer recursos internos e promover mais bem-estar e qualidade de vida.
       </p>
-      <Link to="/service-tag" className="btn btn-primary light">
+      <Link to="/service-depressao" className="btn btn-primary light">
         Ver mais
       </Link>
     </div>

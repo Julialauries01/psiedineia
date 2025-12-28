@@ -1,71 +1,79 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 
 // Elements
-import BackToTop from './elements/back-top';
-import PageScrollTop from './elements/page-scroll-top';
+import BackToTop from "./elements/back-top";
+import PageScrollTop from "./elements/page-scroll-top";
 
 // Layout
 import Header from "./layout/header";
 import Footer from "./layout/footer";
 
 // All Pages Router
-import Index from './pages/index';
-import AboutUs from './pages/about-us';
-import Services from './pages/services';
-import ServiceDetail from './pages/service-detail';
-import FormLogin from './pages/form-login';
-import FormRegister from './pages/form-register';
-import FormForgetPassword from './pages/form-forget-password';
-import Faq from './pages/faq';
-import ContactUs from './pages/contact-us';
-import BlogGrid from './pages/blog-grid';
-import BlogDetails from './pages/blog-details';
-import Error from './pages/error-404';
-import ServiceAutism from './pages/service-autism';
-import ServiceTdah from './pages/service-tdah';
-
+import Index from "./pages/index";
+import AboutUs from "./pages/about-us";
+import Services from "./pages/services";
+import ServiceDetail from "./pages/service-detail";
+import FormLogin from "./pages/form-login";
+import FormRegister from "./pages/form-register";
+import FormForgetPassword from "./pages/form-forget-password";
+import Faq from "./pages/faq";
+import ContactUs from "./pages/contact-us";
+import BlogGrid from "./pages/blog-grid";
+import BlogDetails from "./pages/blog-details";
+import Error from "./pages/error-404";
+import ServiceAutism from "./pages/service-autism";
+import ServiceTdah from "./pages/service-tdah";
+import ServiceLuto from "./pages/service-luto";
+import ServiceAnsiedade from "./pages/service-ansiedade";
+import ServiceDepressao from "./pages/service-depressao.jsx";
 
 class Markup extends Component {
-	render() {
-		return (
-			<>	
-				<BrowserRouter>
-					<Routes>
-						<Route element={<ThemeLayout />}>
-							<Route path='/' element={<Index />} />
-							<Route path='/about-us' element={<AboutUs />} />
-							<Route path='/services' element={<Services />} />
-							<Route path='/service-detail' element={<ServiceDetail />} />
-							<Route path='/service-autism' element={<ServiceAutism />} />
-							<Route path='/service-tdah' element={<ServiceTdah />} />
-							<Route path='/faq' element={<Faq />} />
-							<Route path='/contact-us' element={<ContactUs />} />
-							<Route path='/blog-grid' element={<BlogGrid />} />
-							<Route path='/blog-details/:id' element={<BlogDetails />} />
-							<Route path="*" element={<Error />} />
-						</Route>
-						
-						<Route path="/form-login" element={<FormLogin />} />
-						<Route path="/form-register" element={<FormRegister />} />
-						<Route path='/form-forget-password' element={<FormForgetPassword />} />
-					</Routes>
-					<PageScrollTop />
-				</BrowserRouter>
-				<BackToTop />
-			</>
-		);
-	}
+  render() {
+    return (
+      <>
+        <BrowserRouter>
+          <Routes>
+            <Route element={<ThemeLayout />}>
+              <Route path="/" element={<Index />} />
+              <Route path="/about-us" element={<AboutUs />} />
+              <Route path="/services" element={<Services />} />
+              <Route path="/service-detail" element={<ServiceDetail />} />
+              <Route path="/service-autism" element={<ServiceAutism />} />
+              <Route path="/service-tdah" element={<ServiceTdah />} />
+              <Route path="/service-luto" element={<ServiceLuto />} />
+              <Route path="/service-depressao" element={<ServiceDepressao />} />
+              <Route path="/service-ansiedade" element={<ServiceAnsiedade />} />
+              <Route path="/faq" element={<Faq />} />
+              <Route path="/contact-us" element={<ContactUs />} />
+              <Route path="/blog-grid" element={<BlogGrid />} />
+              <Route path="/blog-details/:id" element={<BlogDetails />} />
+              <Route path="*" element={<Error />} />
+            </Route>
+
+            <Route path="/form-login" element={<FormLogin />} />
+            <Route path="/form-register" element={<FormRegister />} />
+            <Route
+              path="/form-forget-password"
+              element={<FormForgetPassword />}
+            />
+          </Routes>
+          <PageScrollTop />
+        </BrowserRouter>
+        <BackToTop />
+      </>
+    );
+  }
 }
 
 function ThemeLayout() {
-	return (
-		<>
-			<Header />
-			<Outlet />
-			<Footer />
-		</>
-	);
+  return (
+    <>
+      <Header />
+      <Outlet />
+      <Footer />
+    </>
+  );
 }
 
 export default Markup;

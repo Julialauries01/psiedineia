@@ -261,58 +261,57 @@ class ServiceAutism extends Component {
                       dúvidas e orientar sua família nesse processo.
                     </p>
                   </div>
-                   <li className="num-bx">
-                  <a
-                    href="https://wa.me/5516992091665?text=Olá!%20Gostaria%20de%20conversar%20sobre%20atendimento%20psicológico."
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fas btn btn-primary shadow">
-                      Vamos conversar?
-                    </i>
-                  </a>
-                </li>
+                  <li className="num-bx">
+                    <a
+                      href="https://wa.me/5516992091665?text=Olá!%20Gostaria%20de%20conversar%20sobre%20atendimento%20psicológico."
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="fas btn btn-primary shadow">
+                        Vamos conversar?
+                      </i>
+                    </a>
+                  </li>
                 </div>
-
-                
 
                 {/* SIDEBAR */}
                 <div className="col-lg-4">
                   <aside className="sticky-top pb-1">
                     <div className="widget">
                       <ul className="service-menu">
-                        <li>
+                        <li className="active">
                           <Link to="/service-detail">
                             <span>Terapia Individual</span>
                             <i className="fa fa-angle-right"></i>
                           </Link>
                         </li>
+
                         <li>
-                          <Link to="/service-detail">
+                          <Link to="/service-ansiedade">
                             <span>Ansiedade</span>
                             <i className="fa fa-angle-right"></i>
                           </Link>
                         </li>
                         <li>
-                          <Link to="/service-detail">
-                            <span>TDAH em adultos</span>
+                          <Link to="/service-tdah">
+                            <span>TDAH</span>
                             <i className="fa fa-angle-right"></i>
                           </Link>
                         </li>
-                        <li className="active">
+                        <li>
                           <Link to="/service-autism">
                             <span>Autismo (Apoio Familiar)</span>
                             <i className="fa fa-angle-right"></i>
                           </Link>
                         </li>
                         <li>
-                          <Link to="/service-detail">
-                            <span>Relacionamentos</span>
+                          <Link to="/service-luto">
+                            <span>Luto</span>
                             <i className="fa fa-angle-right"></i>
                           </Link>
                         </li>
                         <li>
-                          <Link to="/service-detail">
+                          <Link to="/">
                             <span>Depressão</span>
                             <i className="fa fa-angle-right"></i>
                           </Link>
