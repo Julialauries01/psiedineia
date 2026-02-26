@@ -354,6 +354,8 @@
 .section-sp1{
 	padding-top:100px;
 	padding-bottom:70px;
+	position: relative;
+	overflow: hidden;
 	@include respond('tab-land'){
 		padding-top:70px;
 		padding-bottom:40px;
@@ -366,6 +368,8 @@
 .section-sp2{
 	padding-top:100px;
 	padding-bottom:100px;
+	position: relative;
+	overflow: hidden;
 	@include respond('tab-land'){
 		padding-top:70px;
 		padding-bottom:70px;
