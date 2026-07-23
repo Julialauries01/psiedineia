@@ -13,7 +13,20 @@ import animateRotate from "../../images/shap/plus-blue.png";
 
 
 class ContactUs extends Component{
-	
+
+	handleSubmit = (e) => {
+		e.preventDefault();
+		const form = e.target;
+		const name = form.name.value.trim();
+		const email = form.email.value.trim();
+		const phone = form.phone.value.trim();
+		const message = form.message.value.trim();
+
+		const text = `Olá! Meu nome é ${name}.\nEmail: ${email}\nTelefone: ${phone}\nMensagem: ${message}`;
+		window.open(`https://wa.me/5516992091665?text=${encodeURIComponent(text)}`, '_blank', 'noopener,noreferrer');
+		form.reset();
+	}
+
 	render(){
 		return (
 			<>
@@ -24,7 +37,7 @@ class ContactUs extends Component{
 						<div className="page-banner banner-lg contact-banner" style={{backgroundImage: "url("+bnrImg1+")"}}>
 							<div className="container">
 								<div className="page-banner-entry text-center">
-									<h1>Contact Us</h1>
+									<h1>Contate-me</h1>
 									<nav aria-label="breadcrumb" className="breadcrumb-row">
 										<ul className="breadcrumb">
 											<li className="breadcrumb-item"><Link to="/"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg> Home</Link></li>
@@ -44,8 +57,7 @@ class ContactUs extends Component{
 							<div className="contact-wraper">
 								<div className="row">
 									<div className="col-lg-6 mb-30">
-										<form className="form-wraper contact-form ajax-form">
-											<div className="ajax-message"></div>
+										<form className="form-wraper contact-form ajax-form" onSubmit={this.handleSubmit}>
 											<div className="row">
 												<div className="form-group col-md-12">
 													<input name="name" type="text" required className="form-control" placeholder="Seu nome"/>
@@ -61,7 +73,7 @@ class ContactUs extends Component{
 													<textarea name="message" required className="form-control" placeholder="Deixe uma mensagem"></textarea>
 												</div>
 												<div className="col-lg-12">
-													<button name="submit" type="submit" defaultValue="Submit" className="btn w-100 btn-secondary btn-lg">Enviar</button>
+													<button name="submit" type="submit" className="btn w-100 btn-secondary btn-lg">Enviar pelo WhatsApp</button>
 												</div>
 											</div>
 										</form>

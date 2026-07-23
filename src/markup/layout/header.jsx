@@ -4,7 +4,6 @@ import Sticky from 'react-stickynode';
 
 // Images
 import logo from '../../images/logo.png';
-import logoWhite from '../../images/logo-white.png';
 
 const Header = () => {
 
@@ -29,18 +28,13 @@ const Header = () => {
 		}
 	};
 
-	const handleContactBtnClick = () => {
-		setIsMenuOpen(false);
-		// Implement the logic to toggle the contact sidebar here.
-	};
-
 	const handleMenuCloseClick = () => {
 		setIsMenuOpen(false);
 	};
 
 	useEffect(() => {
 		const handleResize = () => {
-			setIsMobileView(window.innerWidth >= 768);
+			setIsMobileView(window.innerWidth < 768);
 		};
 
 		// Check the screen size on initial render and whenever the window is resized
@@ -64,71 +58,12 @@ const Header = () => {
 			id: 'aboutus',
 			name: 'Sobre mim',
 			linkName: 'about-us',
-			
-		/*	subItems: [
-				{
-					id: 'aboutus',
-					displayName: 'About Us',
-					linkName: 'about-us'
-				},
-				{
-					id: 'faq',
-					displayName: "FAQ's",
-					linkName: 'faq'
-				},
-				{
-					id: 'error',
-					displayName: 'Error 404',
-					linkName: 'error-404'
-				},
-				{
-					id: 'formLogin',
-					displayName: 'Login / Register',
-					linkName: 'form-login'
-				},
-			] */
 		},
-		// {
-		// 	id: 'services',
-		// 	name: 'Serviços',
-		// 	linkName: '',
-			
-		// 	subItems: [
-		// 		{
-		// 			id: 'services',
-		// 			displayName: 'Serviços',
-		// 			linkName: 'services'
-		// 		},
-		// 		{
-		// 			id: 'serviceDetail',
-		// 			displayName: 'Service Detail',
-		// 			linkName: 'service-detail'
-		// 		},
-		// 	]
-		// },
-		// {
-		// 	id: 'blog',
-		// 	name: 'Blog',
-		// 	linkName: '#',
-			
-		// 	subItems: [
-		// 		{
-		// 			id: 'blogGrid',
-		// 			displayName: 'Blogs',
-		// 			linkName: 'blog-grid'
-		// 		},
-		// 		{
-		// 			id: 'blogDetails',
-		// 			displayName: 'Detalhes do Blog',
-		// 			linkName: 'blog-details/:id'
-		// 		},
-		// 	]
-		// },
-/*		{
-			id: 'contactUs',
-			name: 'Contact Us',
-			linkName: 'contact-us'
-		} */
+		{
+			id: 'services',
+			name: 'Serviços',
+			linkName: 'services',
+		},
 	];
 	
 	return(
@@ -168,7 +103,7 @@ const Header = () => {
 						
 						<div className={`menu-links navbar-collapse collapse justify-content-end ${isMenuOpen ? 'show' : ''}`} id="menuDropdown">
 							<div className="menu-logo">
-								<Link to="/"><img src={logoWhite} alt=""/></Link>
+								<Link to="/"><img src={logo} alt=""/></Link>
 							</div>
 							
 							<ul className="nav navbar-nav">	
@@ -200,10 +135,7 @@ const Header = () => {
 							</ul>
 							
 							<ul className="social-media">
-								<li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/" className="btn btn-primary"><i className="fab fa-facebook-f"></i></a></li>
-								<li><a target="_blank" rel="noreferrer" href="https://www.google.com/" className="btn btn-primary"><i className="fab fa-google"></i></a></li>
-								<li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/" className="btn btn-primary"><i className="fab fa-linkedin-in"></i></a></li>
-								<li><a target="_blank" rel="noreferrer" href="https://twitter.com/" className="btn btn-primary"><i className="fab fa-twitter"></i></a></li>
+								<li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/edineiasaraiva.psicologa" className="btn btn-primary"><i className="fab fa-instagram"></i></a></li>
 							</ul>
 							
 							<div className="menu-close" onClick={handleMenuCloseClick}>

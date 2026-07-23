@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 
 // Import Images
 import aboutThumb1 from "../../images/about/pic-1.jpg";
@@ -167,7 +166,7 @@ class aboutSection extends Component {
                     </div>
                   </div>
                 </div>
-                <li className="num-bx">
+                <div className="num-bx">
                   <a
                     href="https://wa.me/5516992091665?text=Olá!%20Gostaria%20de%20conversar%20sobre%20atendimento%20psicológico."
                     target="_blank"
@@ -177,8 +176,8 @@ class aboutSection extends Component {
                       Vamos conversar?
                     </i>
                   </a>
-                </li>{" "}
-              </div>
+                </div>
+</div>
             </div>
           </div>
           <img className="pt-img1 animate-wave" src={ptImg1} alt="" />

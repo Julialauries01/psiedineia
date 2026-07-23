@@ -7,8 +7,6 @@ import bnrImg1 from "../../images/banner/img1.jpg";
 import circleDots from "../../images/shap/circle-dots.png";
 import plusBlue from "../../images/shap/plus-blue.png";
 import servicesPic2 from "../../images/services/pic2.png";
-import pdf from "../../images/icon/pdf.png";
-import doc from "../../images/icon/doc.png";
 
 class ServiceAutism extends Component {
   render() {
@@ -261,7 +259,7 @@ class ServiceAutism extends Component {
                       dúvidas e orientar sua família nesse processo.
                     </p>
                   </div>
-                  <li className="num-bx">
+                  <div className="num-bx">
                     <a
                       href="https://wa.me/5516992091665?text=Olá!%20Gostaria%20de%20conversar%20sobre%20atendimento%20psicológico."
                       target="_blank"
@@ -271,7 +269,7 @@ class ServiceAutism extends Component {
                         Vamos conversar?
                       </i>
                     </a>
-                  </li>
+                  </div>
                 </div>
 
                 {/* SIDEBAR */}
@@ -279,7 +277,7 @@ class ServiceAutism extends Component {
                   <aside className="sticky-top pb-1">
                     <div className="widget">
                       <ul className="service-menu">
-                        <li className="active">
+                        <li>
                           <Link to="/service-detail">
                             <span>Terapia Individual</span>
                             <i className="fa fa-angle-right"></i>
@@ -292,49 +290,35 @@ class ServiceAutism extends Component {
                             <i className="fa fa-angle-right"></i>
                           </Link>
                         </li>
+
                         <li>
                           <Link to="/service-tdah">
                             <span>TDAH</span>
                             <i className="fa fa-angle-right"></i>
                           </Link>
                         </li>
-                        <li>
+
+                        <li className="active">
                           <Link to="/service-autism">
                             <span>Autismo (Apoio Familiar)</span>
                             <i className="fa fa-angle-right"></i>
                           </Link>
                         </li>
+
                         <li>
                           <Link to="/service-luto">
                             <span>Luto</span>
                             <i className="fa fa-angle-right"></i>
                           </Link>
                         </li>
+
                         <li>
-                          <Link to="/">
+                          <Link to="/service-depressao">
                             <span>Depressão</span>
                             <i className="fa fa-angle-right"></i>
                           </Link>
                         </li>
                       </ul>
-                    </div>
-
-                    <div className="widget">
-                      <div className="brochure-bx">
-                        <h5 className="title-head">Download</h5>
-
-                        <Link to="#" className="download-link">
-                          <img src={pdf} alt="" />
-                          <h5 className="title">Guia de Saúde Mental</h5>
-                          <span>Download</span>
-                        </Link>
-
-                        <Link to="#" className="download-link">
-                          <img src={doc} alt="" />
-                          <h5 className="title">Informações da Profissional</h5>
-                          <span>Download</span>
-                        </Link>
-                      </div>
                     </div>
                   </aside>
                 </div>

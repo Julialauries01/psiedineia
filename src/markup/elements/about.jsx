@@ -1,13 +1,9 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 
 // Import Images
 import aboutThumb1 from "../../images/about/pic-1.jpg";
 import aboutThumb2 from "../../images/about/pic-4.png";
 import aboutThumb3 from "../../images/about/pic-3.jpg";
-import ptImg1 from "../../images/shap/wave-orange.png";
-import ptImg2 from "../../images/shap/circle-small-blue.png";
-import ptImg4 from "../../images/shap/square-dots-orange.png";
 import ptImg5 from "../../images/shap/square-blue.png";
 
 class aboutSection extends Component {
@@ -278,7 +274,7 @@ class aboutSection extends Component {
                     </div>
                   </div>
                 </div>
-                <li className="num-bx">
+                <div className="num-bx">
                   <a
                     href="https://wa.me/5516992091665?text=Olá!%20Gostaria%20de%20conversar%20sobre%20atendimento%20psicológico."
                     target="_blank"
@@ -288,7 +284,8 @@ class aboutSection extends Component {
                       Vamos conversar?
                     </i>
                   </a>
-                </li>
+                </div>
+
               </div>
             </div>
           </div>

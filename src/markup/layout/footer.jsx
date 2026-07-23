@@ -64,25 +64,27 @@ class aboutSection extends Component{
 									<div className="widget footer_widget">
 										<h3 className="footer-title">Meus serviços</h3>
 										<ul>
-											<li><span>Autismo</span></li>
-											<li><span>TDAH</span></li>
-											<li><span>Luto</span></li>
-											<li><span>Ansiedade</span></li>
-											<li><span>Depressão</span></li>
-											<li><span>Outros</span></li>
+											<li><Link to="/service-autism"><span>Autismo</span></Link></li>
+											<li><Link to="/service-tdah"><span>TDAH</span></Link></li>
+											<li><Link to="/service-luto"><span>Luto</span></Link></li>
+											<li><Link to="/service-ansiedade"><span>Ansiedade</span></Link></li>
+											<li><Link to="/service-depressao"><span>Depressão</span></Link></li>
+											<li><Link to="/services"><span>Outros</span></Link></li>
 										</ul>
 									</div>
 								</div>
 								<div className="col-xl-3 col-lg-3 col-md-6">
 									<div className="widget widget_form">
 										<h3 className="footer-title">Entre em contato</h3>
-										<form className="subscribe-form subscription-form mb-30">
-											<div className="ajax-message"></div>
-											<div className="input-group">
-												<input name="email" required="required" className="form-control" placeholder="Endereço de Email" type="email"/>
-											</div>
-											<button name="submit" value="Submit" type="submit" className="btn btn-secondary shadow w-100">Contate-me agora</button>	
-										</form>
+										<p>Fale comigo diretamente pelo WhatsApp ou e-mail.</p>
+										<a
+											href="https://wa.me/5516992091665?text=Olá!%20Gostaria%20de%20conversar%20sobre%20atendimento%20psicológico."
+											target="_blank"
+											rel="noopener noreferrer"
+											className="btn btn-secondary shadow w-100 mb-30"
+										>
+											Contate-me agora
+										</a>
 										<div className="footer-social-link">
 											<ul>
 												{/* <li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/"><img src={facebook} alt=""/></a></li> */}

@@ -7,8 +7,6 @@ import bnrImg1 from "../../images/banner/img1.jpg";
 import circleDots from "../../images/shap/circle-dots.png";
 import plusBlue from "../../images/shap/plus-blue.png";
 import servicesPic1 from "../../images/services/pic1.jpg";
-import pdf from "../../images/icon/pdf.png";
-import doc from "../../images/icon/doc.png";
 
 class ServiceDetail extends Component {
   render() {
@@ -237,49 +235,35 @@ class ServiceDetail extends Component {
                             <i className="fa fa-angle-right"></i>
                           </Link>
                         </li>
+
                         <li>
                           <Link to="/service-tdah">
                             <span>TDAH</span>
                             <i className="fa fa-angle-right"></i>
                           </Link>
                         </li>
+
                         <li>
                           <Link to="/service-autism">
                             <span>Autismo (Apoio Familiar)</span>
                             <i className="fa fa-angle-right"></i>
                           </Link>
                         </li>
+
                         <li>
                           <Link to="/service-luto">
                             <span>Luto</span>
                             <i className="fa fa-angle-right"></i>
                           </Link>
                         </li>
+
                         <li>
-                          <Link to="/">
+                          <Link to="/service-depressao">
                             <span>Depressão</span>
                             <i className="fa fa-angle-right"></i>
                           </Link>
                         </li>
                       </ul>
-                    </div>
-
-                    <div className="widget">
-                      <div className="brochure-bx">
-                        <h5 className="title-head">Download</h5>
-
-                        <Link to="#" className="download-link">
-                          <img src={pdf} alt="" />
-                          <h5 className="title">Guia de Saúde Mental</h5>
-                          <span>Download</span>
-                        </Link>
-
-                        <Link to="#" className="download-link">
-                          <img src={doc} alt="" />
-                          <h5 className="title">Informações da Profissional</h5>
-                          <span>Download</span>
-                        </Link>
-                      </div>
                     </div>
                   </aside>
                 </div>
